@@ -1,0 +1,27 @@
+% The Student data
+
+@relation student1
+
+@attribute gender {male,female}
+@attribute sub1 numeric
+@attribute sub2 numeric
+@attribute sub3 numeric
+@attribute total numeric
+@attribute result {pass,fail,RA}
+@attribute placement {yes,no}
+
+@data
+
+male,56,67,78,201,pass,yes
+female,67,76,65,208,pass,no
+male,98,87,76,261,pass,yes
+male,23,12,45,80,fail,no
+male,56,76,90,222,pass,yes
+female,76,65,nan,195,pass,yes
+male,43,32,21,96,fail,yes
+male,65,55,77,197,RA,yes
+male,98,87,nan,261,pass,yes
+male,54,88,77,219,pass,yes
+female,90,94,93,277,pass,no
+male,43,42,41,166,fail,yes
+male,88,99,66,253,pass,yes
